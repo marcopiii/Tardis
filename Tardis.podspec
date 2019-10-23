@@ -1,13 +1,12 @@
 Pod::Spec.new do |spec|
 
   spec.name                 = "Tardis"
-  spec.version              = "1.0.0"
+  spec.version              = "1.1.0"
   spec.summary              = "A super lite chronology tracker to save and navigate application states (or any data you want)."
   spec.description          = "Tardis allows you to save, keep track and navigate snapshots of your application state (or whatever else you want) with a concise syntax"
   spec.homepage             = "https://github.com/aSlug/Tardis"
 
   spec.license              = "MIT"
-  spec.platform             = :ios, "12.0"
 
   spec.author               = "aSlug"
 
