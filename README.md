@@ -17,19 +17,19 @@
 
 The funcionalities of Tardis are intentionally cut to the bone to provide a basic (yet very effective) way to keep a chronology of the state in a Redux-like architecture.
 
-__Create__ a Tardis instance
+* __Create__ a Tardis instance
 
 ```swift
 let stateTracker = Tardis<AppState>()
 ```
 
-__Save___ snapshots of the application state (or any other data you want to track)
+* __Save__ snapshots of the application state (or any other data you want to track)
 
 ```swift
 stateTracker.save(snapshot: appState)
 ```
 
-Make your application __time-travel__!
+* Make your application __time-travel__!
 
 ```swift
 if stateTracker.hasPrevious {
@@ -51,7 +51,7 @@ appState = stateTracker.oldest()
 appState = stateTracker.latest()
 ```
 
-Discard all snapshots and __restart__ with new tracking
+* Discard all snapshots and __restart__ with new tracking
 
 ```swift
 stateTracker.reboot(with: appState)
