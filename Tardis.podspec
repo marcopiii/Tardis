@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
   spec.author               = "aSlug"
 
-  spec.source               = { :git => "https://github.com/aSlug/Tardis.git", :tag => "v1.0.0" }
+  spec.source               = { :git => "https://github.com/aSlug/Tardis.git", :tag => "v1.1.0" }
 
   spec.source_files         = "Tardis/Tardis.swift"
 
