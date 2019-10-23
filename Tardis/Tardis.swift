@@ -7,6 +7,8 @@
 /// A chronology tracker to save and navigate application states
 public class Tardis<Snapshot> {
     
+    public init() {}
+    
     // MARK: - Private properties
     
     private var snapshots: [Snapshot] = []
