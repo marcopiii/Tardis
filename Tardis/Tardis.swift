@@ -5,6 +5,9 @@
 //  Created by aSlug on 22/10/2019.
 
 /// A chronology tracker to save and navigate application states
+///
+/// The initialization of a Tardis instance does not require a Snapshot object, even if a Snapshot obeject must be saved before using any other function.
+/// This is to permit to define an instance of Tardis even when an instance of Snapshot is not available yet.
 public class Tardis<Snapshot> {
     
     public init() {}
